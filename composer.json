@@ -1,0 +1,15 @@
+{
+    "name": "test/testing",
+    "description": "Just a test",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "3.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tomit4"
+        }
+    ],
+    "minimum-stability": "dev"
+}
