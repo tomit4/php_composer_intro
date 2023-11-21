@@ -22,3 +22,16 @@ composer init
 You'll want to explore the php world's version of npm, [Packagist](https://packagist.org/).
 
 Make sure to add the vendor directory to your .gitignore, (can be thought of as alike to node_modules).
+
+In order to very basically serve php, you can utilize the -S flag to set up a
+basic server:
+
+```
+php -S localhost:8000
+```
+
+By default looks for index.php in pwd, you can also specify a file:
+
+```
+php -S localhost:8000 hello.php
+```
